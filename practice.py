@@ -28,3 +28,9 @@ if Question2 == ("Lionel Messi"):
   print("Correct!")
 elif Question2 != ("Lionel Messi"):
   print("Sorry, that is not correct")
+
+Question3 = input("What is 42 + 2 - 6? ")
+if Question3 == ("38"):
+  print("You're a math wiz!!")
+elif Question3 != ("38"):
+  print("Oof, not quite")
