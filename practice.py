@@ -1,5 +1,5 @@
 def say_hello():
-  name = input('What is your name? ')
+  name = input('Hello! what is your name? ')
   print(f'Hello, {name}!')
 
 say_hello()
@@ -17,4 +17,14 @@ def user_job():
 
 user_job()
 
-print("Do you want to play a trivia game?")
+Question = input("Do you want to play a Trivia game? ")
+if Question == ("Yes"):
+  print("Very well, let's begin")
+elif Question == ("No"):
+  print("No worries, maybe some other time :)")
+
+Question2 = input("Who is known as the GOAT of soccer? ")
+if Question2 == ("Lionel Messi"):
+  print("Correct!")
+elif Question2 != ("Lionel Messi"):
+  print("Sorry, that is not correct")
