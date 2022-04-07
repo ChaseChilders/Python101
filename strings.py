@@ -61,3 +61,5 @@ print(f"Hello, {firstName} {lastName}.")
 print(f"{firstName[0]}.{lastName}@gmail.com")
 
 print(f"Welcome to Digital Crafts, {firstName} {lastName}!")
+
+print("The dog jumped over the hill")
