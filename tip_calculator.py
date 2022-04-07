@@ -7,3 +7,9 @@ def percentage_plus(bill_total, tip_percentage):
 
 final_amount = percentage_plus(bill_total, tip_percentage)
 print (f"The final amount is {final_amount}")
+
+# def percentage_plus(bill_total, tip_percentage):
+#   tip_amount = bill_total * (tip_percentage / 100)
+#   return tip_amount + bill_total
+
+# def tip_calculator(bill_total, tip_percentage):
