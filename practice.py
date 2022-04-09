@@ -44,12 +44,18 @@
 
 
 
-def odd_or_even(user_number):
-  if user_number % 2 == 0:
-    print("That is an even number sir :) ")
-  if user_number % 2 == 1:
-    print("That is an odd number sir :) ")
+# def odd_or_even(user_number):
+#   if user_number % 2 == 0:
+#     print("That is an even number sir :) ")
+#   if user_number % 2 == 1:
+#     print("That is an odd number sir :) ")
 
-user_number = int(input("Enter a number here: "))
+# user_number = int(input("Enter a number here: "))
 
-odd_or_even(user_number)
+# odd_or_even(user_number)
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+for x in a:
+  if x < 5: 
+    print(x)
