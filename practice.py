@@ -35,9 +35,21 @@
 # elif Question3 != ("38"):
 #   print("Oof, not quite")
 
-user_name = input("What is your name?: ")
-user_age = int(input("How old are you? "))
+# user_name = input("What is your name?: ")
+# user_age = int(input("How old are you? "))
 
-till_they_100 = 100 - user_age
+# till_they_100 = 100 - user_age
 
-print(f"Hi {user_name}, you have {till_they_100} years until you're 100 :) ")
+# print(f"Hi {user_name}, you have {till_they_100} years until you're 100 :) ")
+
+
+
+def odd_or_even(user_number):
+  if user_number % 2 == 0:
+    print("That is an even number sir :) ")
+  if user_number % 2 == 1:
+    print("That is an odd number sir :) ")
+
+user_number = int(input("Enter a number here: "))
+
+odd_or_even(user_number)
