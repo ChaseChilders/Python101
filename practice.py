@@ -54,8 +54,24 @@
 
 # odd_or_even(user_number)
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
-for x in a:
-  if x < 5: 
-    print(x)
+# for x in a:
+#   if x < 5: 
+#     print(x)
+
+print("WELCOME TO ROCK, PAPER, SCISSORS")
+player_1 = input("Player 1, type Rock, Paper, or Scissors: ")
+player_2 = input("Player 2, type Rock, Paper, or Scissors: ")
+
+
+def rock_paper_scissors():
+  if player_1 == player_2:
+    print("It's a tie!!!! ")
+  if player_1 == "Rock" and player_2 == "Paper":
+    print("Player 1 is the winner!! ")
+  if player_1 == "Rock" and player_2 == "Scissors":
+    print("Player 1 is the winner")
+  if player_1 == "Rock"
+
+rock_paper_scissors()
