@@ -106,8 +106,19 @@
 
 # COUNT N TO M
 # will have the user input two numbers and will count up to the second number from the first
-number_1 = int(input("Please select a number: "))
-number_2 = int(input("Please select another number higher than the first: "))
+# number_1 = int(input("Please select a number: "))
+# number_2 = int(input("Please select another number higher than the first: "))
+# while number_1 < number_2:
+#   number_1 += 1
+#   print(number_1)
+
+# COUNT ODD N TO M
+# made a program that asks the users for two numbers and it prints only the odd ones in between the two
+
+number_1 = int(input("Please enter a number: "))
+number_2 = int(input("Please select another number: "))
 while number_1 < number_2:
+  if (number_1 % 2) == 1:
+    print(number_1)
   number_1 += 1
-  print(number_1)
+    
