@@ -98,8 +98,16 @@
 
 # COUNT TO X
 # will prompt the user to enter a number and then will count up to that number
-count = 0
-number_1 = int(input("Please enter a number: "))
-while count < number_1:
-  count += 1
-  print(count)
+# count = 0
+# number_1 = int(input("Please enter a number: "))
+# while count < number_1:
+#   count += 1
+#   print(count)
+
+# COUNT N TO M
+# will have the user input two numbers and will count up to the second number from the first
+number_1 = int(input("Please select a number: "))
+number_2 = int(input("Please select another number higher than the first: "))
+while number_1 < number_2:
+  number_1 += 1
+  print(number_1)
