@@ -60,18 +60,46 @@
 #   if x < 5: 
 #     print(x)
 
-print("WELCOME TO ROCK, PAPER, SCISSORS")
-player_1 = input("Player 1, type Rock, Paper, or Scissors: ")
-player_2 = input("Player 2, type Rock, Paper, or Scissors: ")
+# print("WELCOME TO ROCK, PAPER, SCISSORS")
+# player_1 = input("Player 1, type Rock, Paper, or Scissors: ")
+# player_2 = input("Player 2, type Rock, Paper, or Scissors: ")
 
 
-def rock_paper_scissors():
-  if player_1 == player_2:
-    print("It's a tie!!!! ")
-  if player_1 == "Rock" and player_2 == "Paper":
-    print("Player 1 is the winner!! ")
-  if player_1 == "Rock" and player_2 == "Scissors":
-    print("Player 1 is the winner")
-  if player_1 == "Rock"
+# def rock_paper_scissors():
+#   if player_1 == player_2:
+#     print("It's a tie!!!! ")
+#   if player_1 == "Rock" and player_2 == "Paper":
+#     print("Player 1 is the winner!! ")
+#   if player_1 == "Rock" and player_2 == "Scissors":
+#     print("Player 1 is the winner")
+#   if player_1 == "Rock"
 
-rock_paper_scissors()
+# rock_paper_scissors()\
+
+# number = 0
+# while number <= 5:
+#   print(number)
+#   number += 1
+
+# word = "mississippi"
+# for x in  word:
+#   print(x)
+
+# def user_number():
+#   num_1 = 0
+#   while True:
+#     user_number = int(input("Please print a number: "))
+#     if user_number >= 0:
+#       num_1 += 0
+#     else:
+#       print("The game is over")
+
+# user_number()
+
+# COUNT TO X
+# will prompt the user to enter a number and then will count up to that number
+count = 0
+number_1 = int(input("Please enter a number: "))
+while count < number_1:
+  count += 1
+  print(count)
