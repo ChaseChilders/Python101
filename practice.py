@@ -115,10 +115,72 @@
 # COUNT ODD N TO M
 # made a program that asks the users for two numbers and it prints only the odd ones in between the two
 
-number_1 = int(input("Please enter a number: "))
-number_2 = int(input("Please select another number: "))
-while number_1 < number_2:
-  if (number_1 % 2) == 1:
-    print(number_1)
-  number_1 += 1
-    
+# # number_1 = int(input("Please enter a number: "))
+# # number_2 = int(input("Please select another number: "))
+# # while number_1 < number_2:
+# #   if (number_1 % 2) == 1:
+# #     print(number_1)
+# #   number_1 += 1
+
+# # def coin_flip ():
+# #   click_start = int(input("Type 3 to flip the coin: "))
+# #   flip = random.randint(0,1)
+# #   if click_start == 3:
+# #     if flip == 0:
+# #       print("Heads")
+# #     if flip == 1:
+# #       print("Tails")
+# #   elif click_start != 3:
+# #     print("Type 3 moron ")
+
+# import random
+
+# def coin_flip(): 
+#   flip = random.randint(0,1)
+#   if flip == 0:
+#     print('You got heads! ')
+#   if flip == 1:
+#     print('You got tails!! ')
+
+# # flip = random.randint(0,1)
+# #     if flip == 0:
+# #       print('You got heads! ')
+# #     if flip == 1:
+# #       print('You got tails!! ') 
+
+# from ast import While
+# import random
+
+
+# print("Welcome to the coin flipper!")
+# print("You have 1 coin. ")
+# coins = 1
+
+# def coin_flip():
+#   flip = random.randint(0,1)
+#   if flip == 0:
+#     print("It is Heads! ")
+#   if flip == 1:
+#     print("It is Tails! ")
+
+# while True:
+#   user_input = input("Would you like another?(Say yes or no): ")
+#   if user_input == "yes":
+#     coins += 1
+#     print(f"You have {coins} coins")
+#   elif user_input == "no":
+#     break
+#   else:
+#     print("Please print yes or no")
+
+# i = (f"{coins}")
+
+# for i in range(coin_flip):
+#   print(f"{i}")
+# import random
+# target_num, user_input = random.randint(1,10),0
+
+# while target_num != user_input:
+#   user_input = int(input("Guess a number between 1 and 9: "))
+# if target_num == user_input:
+#   print('Well guessed!')
