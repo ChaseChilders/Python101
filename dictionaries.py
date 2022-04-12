@@ -55,23 +55,23 @@
 
 # print(f"The name is {user['name']['last']}, {user['name']['first']} {user['name']['last']}")
 
-# phonebook_dict = {
-#   'Alice': '703-493-1834',
-#   'Bob': '857-384-1234',
-#   'Elizabeth': '484-584-2923'
-# }
+phonebook_dict = {
+  'Alice': '703-493-1834',
+  'Bob': '857-384-1234',
+  'Elizabeth': '484-584-2923'
+}
 
-# for key in phonebook_dict:
-#   print(key)
-#   print(phonebook_dict[key])
+for key in phonebook_dict:
+  print(key)
+  print(phonebook_dict[key])
 
-# print(phonebook_dict['Elizabeth'])
+print(phonebook_dict['Elizabeth'])
 
-# phonebook_dict['Kareem'] = '938-489-1234'
+phonebook_dict['Kareem'] = '938-489-1234'
 
-# del phonebook_dict['Alice']
+del phonebook_dict['Alice']
 
-# phonebook_dict['Bob'] = '968-345-2345'
+phonebook_dict['Bob'] = '968-345-2345'
 
 
 
@@ -154,4 +154,4 @@
 #Structuring data
 
 
-customer = {}
+# customer = {}
