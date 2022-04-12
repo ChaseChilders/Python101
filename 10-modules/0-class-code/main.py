@@ -1,3 +1,10 @@
-from random import randint
+from pokemon import print_pokemon, pokemon
 
-print(randint(1,100))
+
+# from random import randint
+
+# print(randint(1,100))
+
+
+
+print_pokemon(pokemon[0])
