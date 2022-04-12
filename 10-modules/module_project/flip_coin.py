@@ -6,5 +6,3 @@ def flip_coins():
     print("HEADS")
   if flip == 1:
     print("TAILS")
-
-flip_coins()
