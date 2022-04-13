@@ -1,4 +1,4 @@
-def game_board1():
+def game_board():
       print("""
                                                    _                                _       
     /\                                            | |                              | |      
